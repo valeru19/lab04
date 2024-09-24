@@ -17,8 +17,8 @@ def count_common_elements(*lists):
 
 if __name__ == "__main__":
     # Пример использования
-    list1 = [1, 2, 3, 4]
-    list2 = [3, 4, 5, 6]
-    list3 = [4, 6, 7, 8]
+    list1 = [1, 2, 3, 4, 5]
+    list2 = [3, 4, 5, 6, 7]
+    list3 = [4, 5, 7, 8, 9]
     result = count_common_elements(list1, list2, list3)
     print(f"Количество одинаковых элементов: {result}")
